@@ -5,7 +5,7 @@
       ACTI
       <span class="nowrap">
         <figure>
-          <img class="img-sun" src="../assets/images/icons8-sunrays-48 (1).png" alt="" />
+          <img class="img-sun" src="../assets/images/sun.png" alt="" />
         </figure>
       </span>
       N
@@ -54,12 +54,12 @@
     .nowrap {
       figure {
         .img-sun {
-          margin-top: 5rem;
-          width: 140px;
+          margin-top: -1rem;
+          width: 130px;
 
           @media screen and (max-width: 768px) {
             width: 49px;
-            margin-top: 2rem;
+            margin-top: 0.5rem;
           }
         }
       }
