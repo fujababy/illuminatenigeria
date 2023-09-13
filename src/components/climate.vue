@@ -103,6 +103,10 @@
       justify-content: center;
       align-items: center;
     }
+
+    .btn--width {
+      color: #000;
+    }
   }
 }
 .nowrap {
