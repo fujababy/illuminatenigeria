@@ -7,9 +7,9 @@
       <p>
         By using this website, you certify that you have read and reviewed this Agreement and that
         you agree to comply with its terms. If you do not want to be bound by the terms of this
-        Agreement, you are advised to stop using the website accordingly. [company name] only grants
-        use and access of this website, its products, and its services to those who have accepted
-        its terms.
+        Agreement, you are advised to stop using the website accordingly. Illuminate Nigeria only
+        grants use and access of this website, its products, and its services to those who have
+        accepted its terms.
       </p>
 
       <h3>Privacy policy</h3>
@@ -22,20 +22,20 @@
       <p>
         You must be at least 10 (ten) years of age before you can use this website. By using this
         website, you warrant that you are at least 18 years of age and you may legally adhere to
-        this Agreement. [company name] assumes no responsibility for liabilities related to age
+        this Agreement. Illuminate Nigeria assumes no responsibility for liabilities related to age
         misrepresentation.
       </p>
       <h3>Intellectual property</h3>
       <p>
         You agree that all materials, products, and services provided on this website are the
-        property of [company name], its affiliates, directors, officers, employees, agents,
+        property of illuminate Nigeria, its affiliates, directors, officers, employees, agents,
         suppliers, or licensors including all copyrights, trade secrets, trademarks, patents, and
         other intellectual property. You also agree that you will not reproduce or redistribute the
-        [company name]’s intellectual property in any way, including electronic, digital, or new
-        trademark registrations. You grant [company name] a royalty-free and non-exclusive license
-        to display, use, copy, transmit, and broadcast the content you upload and publish. For
-        issues regarding intellectual property claims, you should contact the company in order to
-        come to an agreement.
+        Illuminate Nigeria’s intellectual property in any way, including electronic, digital, or new
+        trademark registrations. You grant Illuminate Nigeria a royalty-free and non-exclusive
+        license to display, use, copy, transmit, and broadcast the content you upload and publish.
+        For issues regarding intellectual property claims, you should contact the company in order
+        to come to an agreement.
       </p>
       <h3>User accounts</h3>
 

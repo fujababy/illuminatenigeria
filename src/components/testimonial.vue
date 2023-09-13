@@ -122,6 +122,10 @@
           margin-right: 0;
         }
       }
+
+      .btn--width {
+        color: #000;
+      }
     }
   }
 }

@@ -14,7 +14,7 @@
                 <li>Terms & Conditions</li>
               </router-link>
 
-              <router-link :to="{ name: '' }">
+              <router-link :to="{ name: 'privacy' }">
                 <li>Privacy Policy</li>
               </router-link>
             </ul>
