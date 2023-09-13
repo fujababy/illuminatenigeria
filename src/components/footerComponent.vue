@@ -154,6 +154,7 @@ export default {
       display: flex;
       justify-content: center;
       align-items: center;
+      margin-right: 0;
     }
   }
 }
@@ -167,7 +168,7 @@ export default {
   line-height: 27.2px;
 
   @media screen and (max-width: 768px) {
-    padding-bottom: 4rem;
+    padding-bottom: 2rem;
     font-size: 18px;
   }
 }
