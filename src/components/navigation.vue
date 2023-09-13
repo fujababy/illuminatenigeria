@@ -44,6 +44,10 @@
 <style lang="scss" scoped>
 .navbar-brand {
   font-size: 2rem;
+
+  @media screen and (max-width: 768px) {
+    font-size: 15px;
+  }
 }
 
 .navbar-nav {

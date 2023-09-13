@@ -10,11 +10,8 @@
                 <li>About Us</li>
               </router-link>
 
-              <router-link :to="{ name: '' }">
-                <li>
-                  Terms and <br />
-                  Conditions
-                </li>
+              <router-link :to="{ name: 'terms' }">
+                <li>Terms & Conditions</li>
               </router-link>
 
               <router-link :to="{ name: '' }">
