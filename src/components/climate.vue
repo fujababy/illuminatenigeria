@@ -58,8 +58,8 @@
           width: 130px;
 
           @media screen and (max-width: 768px) {
-            width: 49px;
-            margin-top: 0.5rem;
+            width: 45px;
+            margin-top: 0.2rem;
           }
         }
       }
@@ -82,7 +82,6 @@
 
   .btn__container {
     .btn {
-   
     }
     .btn-margin {
       margin-right: 2rem;
