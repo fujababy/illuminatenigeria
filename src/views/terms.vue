@@ -102,10 +102,10 @@ h3 {
   text-transform: capitalize;
 
   @media screen and (max-width: 768px) {
-    padding: 0 2rem;
+    // padding: 0 2rem;
     font-size: 25px;
     margin-bottom: 1rem;
-    text-align: center;
+    margin-left: 2rem;
   }
 }
 
@@ -123,7 +123,7 @@ p {
     line-height: 27px;
     padding: 0rem 2rem;
     margin-bottom: 4rem;
-    text-align: center;
+    // text-align: center;
   }
 }
 </style>

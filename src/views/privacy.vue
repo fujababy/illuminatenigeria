@@ -27,10 +27,10 @@
       </ul>
       <h3>Safeguarding and Securing the Data</h3>
       <p>
-        Illuminate Nigeria is committed to securing your data and keeping it confidential. [company
-        name] has done all in its power to prevent data theft, unauthorized access, and disclosure
-        by implementing the latest technologies and software, which help us safeguard all the
-        information we collect online.
+        Illuminate Nigeria is committed to securing your data and keeping it confidential.
+        Illuminate Nigeria has done all in its power to prevent data theft, unauthorized access, and
+        disclosure by implementing the latest technologies and software, which help us safeguard all
+        the information we collect online.
       </p>
       <h3>Our Cookie Policy</h3>
       <p>
@@ -105,7 +105,8 @@ export default {
       padding: 0 2rem;
       font-size: 15px;
       margin-bottom: 1rem;
-      text-align: center;
+      // text-align: center;
+      margin-left: 0;
     }
   }
 
