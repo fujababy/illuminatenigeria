@@ -12,7 +12,7 @@
       >
         <span class="navbar-toggler-icon"></span>
       </button>
-
+      <!-- 
       <div class="collapse navbar-collapse" id="navmenu">
         <ul class="navbar-nav ms-auto col-sm-mt-5">
           <li class="nav-item me-5">
@@ -32,6 +32,23 @@
             <li class="nav-item me-5">
               <a href="#" class="nav-link">DONATE</a>
             </li>
+          </router-link>
+        </ul>
+      </div> -->
+
+      <div class="collapse navbar-collapse" id="navmenu">
+        <ul class="navbar-nav ms-auto col-sm-mt-5">
+          <router-link :to="{ name: 'aboutUs' }">
+            <li class="nav-item me-5"><span class="nav-link">HOME</span></li>
+          </router-link>
+          <router-link :to="{ name: 'aboutUs' }">
+            <li class="nav-item me-5"><span class="nav-link">ABOUT</span></li>
+          </router-link>
+          <router-link :to="{ name: 'purpose' }">
+            <li class="nav-item me-5"><span class="nav-link">PURPOSE</span></li>
+          </router-link>
+          <router-link :to="{ name: 'donate' }">
+            <li class="nav-item me-5"><span class="nav-link">DONATE</span></li>
           </router-link>
         </ul>
       </div>

@@ -51,7 +51,7 @@
               <img src="../assets/svg/facebook-icon-1.svg" alt="" />
             </a>
 
-            <a href="https://api.whatsapp.com/send?phone=08132852593">
+            <a href="//api.whatsapp.com/send?phone=2348132852593&text=ILLUMINATE NIGERIA">
               <img src="../assets/svg/newwhatsapp.svg" alt="" />
             </a>
 
@@ -99,11 +99,11 @@ export default {
 
   @media screen and (max-width: 820px) {
     flex-direction: column;
-    row-gap: 3rem;
-    padding-bottom: 5rem;
-    padding-left: 2rem;
+    // row-gap: 3rem;
+    padding-bottom: 3rem;
+    padding-left: 0;
     padding-right: 0;
-    padding-top: 3rem;
+    padding-top: 2rem;
   }
 
   .list__container {
@@ -115,6 +115,10 @@ export default {
 
     @media screen and (max-width: 820px) {
       border-right: 0;
+      padding-left: 2rem;
+      width: 100%;
+      padding-bottom: 1rem;
+      border-bottom: 1px solid #393939;
     }
 
     .list__container,
@@ -130,7 +134,7 @@ export default {
     li {
       font-size: 16px;
       font-weight: 300;
-      padding: 10px 30px 0px 0px;
+      padding: 0px 30px 0px 0px;
     }
     .list__container,
     section,
@@ -148,10 +152,11 @@ export default {
   }
 
   .social__container {
-    padding-top: 1rem;
+    padding-top: 2rem;
+    width: 100%;
     img {
       width: 30px;
-      margin-right: 4rem;
+      margin: 0rem 2rem;
     }
 
     @media screen and (max-width: 820px) {
