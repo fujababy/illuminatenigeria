@@ -87,7 +87,7 @@ export default {
 <style lang="scss" scoped>
 h1 {
   text-align: center;
-  margin-top: 4rem;
+  padding-top: 8rem;
   font-size: 40px;
 
   @media screen and (max-width: 768px) {
