@@ -82,9 +82,7 @@
 
   .btn__container {
     .btn {
-      // padding: 18px 37.5px;
-      // font-size: 16px;
-      // border-radius: 40px;
+   
     }
     .btn-margin {
       margin-right: 2rem;
