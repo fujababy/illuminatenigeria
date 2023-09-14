@@ -57,7 +57,7 @@
     }
   }
   .quote {
-    font-size: 3rem;
+    font-size: 2rem;
     font-style: italic;
     color: var(--color-body-darker);
     line-height: 1.3;
@@ -68,7 +68,7 @@
       font-weight: 300;
 
       @media screen and (max-width: 768px) {
-        font-size: 18px;
+        font-size: 16px;
         margin-top: 0;
         text-align: center;
       }
@@ -95,7 +95,7 @@
       .media__body {
         .quote__author {
           font-size: 3rem;
-          font-weight: 400;
+          font-weight: 300;
           font-style: normal;
           margin-bottom: 0;
 

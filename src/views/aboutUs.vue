@@ -41,18 +41,6 @@ export default {
     climate,
     footerComponent
   }
-
-  // data() {
-  //   return {
-  //     showMenu: true
-  //   }
-  // },
-
-  // methods: {
-  //   toggleShowMenu() {
-  //     this.showMenu = !this.showMenu
-  //   }
-  // }
 }
 </script>
 

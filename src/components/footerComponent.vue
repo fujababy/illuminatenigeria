@@ -1,7 +1,7 @@
 <template>
   <div>
     <section>
-      <footer class="footer__sections">
+      <footer class="block">
         <div class="list__container">
           <section>
             <ul>
@@ -23,7 +23,9 @@
             <ul>
               <h1>FIND US</h1>
 
-              <li><a href="https://api.whatsapp.com/send?phone=08132852593">Contact</a></li>
+              <router-link :to="{ name: '' }">
+                <li>Contact</li>
+              </router-link>
 
               <router-link :to="{ name: '' }">
                 <li>Locations</li>
@@ -33,10 +35,12 @@
           <section>
             <ul>
               <h1>TAKE ACTION</h1>
-              <li><a href="/donate">Donate</a></li>
-              <a href="#">
+              <router-link :to="{ name: 'donate' }">
+                <li>Donate</li>
+              </router-link>
+              <router-link :to="{ name: 'home' }">
                 <li>jump to top</li>
-              </a>
+              </router-link>
             </ul>
           </section>
         </div>
@@ -85,13 +89,13 @@ export default {
 </script>
 
 <style lang="scss" scoped>
-.footer__sections {
+.block {
   display: flex;
   padding-top: 5rem;
   padding-left: 180px;
   padding-right: 180px;
   column-gap: 5rem;
-  margin-bottom: 5rem;
+  // margin-bottom: 5rem;
 
   @media screen and (max-width: 820px) {
     flex-direction: column;

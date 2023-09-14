@@ -86,7 +86,7 @@ export default {
     font-size: 40px;
 
     @media screen and (max-width: 768px) {
-      font-size: 30px;
+      font-size: 25px;
       margin-bottom: 2rem;
     }
   }
@@ -98,7 +98,7 @@ export default {
 
     @media screen and (max-width: 768px) {
       padding: 0 2rem;
-      font-size: 25px;
+      font-size: 15px;
       margin-bottom: 1rem;
       text-align: center;
     }
@@ -115,10 +115,9 @@ export default {
 
     @media screen and (max-width: 768px) {
       font-size: 16px;
-      line-height: 27px;
+
       padding: 0rem 2rem;
-      margin-bottom: 4rem;
-      text-align: center;
+      margin-bottom: 2rem;
     }
   }
   ul li {
@@ -126,6 +125,9 @@ export default {
     font-weight: 300;
     margin: 0rem 3rem;
     list-style: disc;
+    @media screen and (max-width: 768px) {
+      font-size: 16px;
+    }
   }
 }
 </style>

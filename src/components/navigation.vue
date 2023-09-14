@@ -13,8 +13,8 @@
         <span class="navbar-toggler-icon"></span>
       </button>
 
-      <div class="collapse navbar-collapse fs" id="navmenu">
-        <ul class="navbar-nav ms-auto">
+      <div class="collapse navbar-collapse" id="navmenu">
+        <ul class="navbar-nav ms-auto col-sm-mt-5">
           <li class="nav-item me-5">
             <a href="/" class="nav-link">HOME</a>
           </li>
@@ -42,6 +42,21 @@
 <script></script>
 
 <style lang="scss" scoped>
+.navbar {
+  .collapse {
+    @media screen and (max-width: 768px) {
+      margin-top: 2rem;
+    }
+
+    ul {
+      li {
+        @media screen and (max-width: 768px) {
+          border-bottom: 1px solid #393939;
+        }
+      }
+    }
+  }
+}
 .navbar-brand {
   font-size: 2rem;
 

@@ -64,6 +64,10 @@ export default {
     climate,
 
     footerComponent
+  },
+
+  scrollToTop() {
+    this.$refs.section.scrollTo(0, 0)
   }
 
   // data() {
