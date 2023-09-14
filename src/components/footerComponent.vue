@@ -96,6 +96,7 @@ export default {
   padding-right: 180px;
   column-gap: 5rem;
   // margin-bottom: 5rem;
+  // justify-content: center;
 
   @media screen and (max-width: 820px) {
     flex-direction: column;
@@ -109,15 +110,17 @@ export default {
   .list__container {
     display: flex;
     justify-content: space-between;
-    width: 50%;
+
+    width: 100%;
     line-height: 1.4;
     border-right: 1px solid #000;
 
     @media screen and (max-width: 820px) {
       border-right: 0;
-      padding-left: 2rem;
+      padding: 2rem;
       width: 100%;
-      padding-bottom: 1rem;
+      line-height: 27px;
+
       border-bottom: 1px solid #393939;
     }
 
@@ -152,7 +155,7 @@ export default {
   }
 
   .social__container {
-    padding-top: 2rem;
+    // padding-top: 2rem;
     width: 100%;
     img {
       width: 30px;
@@ -164,6 +167,7 @@ export default {
       justify-content: center;
       align-items: center;
       margin-right: 0;
+      padding-top: 3rem;
     }
   }
 }

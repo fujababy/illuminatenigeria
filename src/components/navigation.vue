@@ -1,5 +1,5 @@
 <template>
-  <nav class="navbar navbar-expand-lg bg-dark navbar-dark pt-5 pb-5">
+  <nav class="navbar navbar-expand-lg bg-dark navbar-dark pt-3 pb-3">
     <div class="container">
       <a href="/" class="navbar-brand">ILLUMINATE NIGERIA</a>
       <span><img src="" alt="" /></span>
@@ -38,7 +38,7 @@
 
       <div class="collapse navbar-collapse" id="navmenu">
         <ul class="navbar-nav ms-auto col-sm-mt-5">
-          <router-link :to="{ name: 'aboutUs' }">
+          <router-link :to="{ name: 'home' }">
             <li class="nav-item me-5"><span class="nav-link">HOME</span></li>
           </router-link>
           <router-link :to="{ name: 'aboutUs' }">
