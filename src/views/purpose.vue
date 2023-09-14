@@ -1,7 +1,7 @@
 <template>
   <div>
-    <section>
-      <navigation />
+    <navigation />
+    <section class="block">
       <h2>OUR PURPOSE</h2>
       <h3>
         Ensure Access to Affordable, Reliable, Sustainable and Renewable Modern Energy for All
@@ -26,10 +26,10 @@
           adopting clean energy technologies and infrastructure.
         </p>
       </article>
-
-      <climate />
-      <footerComponent />
     </section>
+
+    <climate />
+    <footerComponent />
   </div>
 </template>
 
@@ -46,63 +46,54 @@ export default {
     climate,
     footerComponent
   }
-
-  // data() {
-  //   return {
-  //     showMenu: true
-  //   }
-  // },
-
-  // methods: {
-  //   toggleShowMenu() {
-  //     this.showMenu = !this.showMenu
-  //   }
-  // }
 }
 </script>
 
 <style lang="scss" scoped>
-h2 {
-  font-size: 40px;
-  text-align: center;
-  margin-top: 5rem;
+.block {
+  padding-top: 5rem;
+  h2 {
+    font-size: 40px;
+    text-align: center;
+    margin-top: 5rem;
 
-  @media screen and (max-width: 768px) {
+    @media screen and (max-width: 768px) {
+      font-size: 30px;
+      line-height: 27px;
+      padding: 0 2rem;
+    }
+  }
+
+  h3 {
     font-size: 30px;
-    line-height: 27px;
-    padding: 0 2rem;
+    text-align: start;
+    margin-top: 3rem;
+    padding: 0 5rem;
+    font-weight: 300;
+
+    @media screen and (max-width: 768px) {
+      font-size: 20px;
+      line-height: 27px;
+      padding: 0 2rem;
+      margin-top: 2rem;
+    }
   }
-}
 
-h3 {
-  font-size: 30px;
-  text-align: start;
-  margin-top: 3rem;
-  padding: 0 5rem;
-  font-weight: 300;
+  p {
+    font-size: 22px;
+    line-height: 37.4px;
+    //   max-width: 784px;
+    margin: auto;
+    font-weight: 300;
+    margin-top: 0;
+    padding: 1rem 5rem;
+    margin-bottom: 4rem;
 
-  @media screen and (max-width: 768px) {
-    font-size: 20px;
-    line-height: 27px;
-    padding: 0 2rem;
-    margin-top: 2rem;
-  }
-}
-
-p {
-  font-size: 22px;
-  line-height: 37.4px;
-  //   max-width: 784px;
-  margin: auto;
-  font-weight: 300;
-  margin-top: 0;
-  padding: 1rem 5rem;
-  margin-bottom: 4rem;
-
-  @media screen and (max-width: 768px) {
-    font-size: 16px;
-    line-height: 27px;
-    padding: 2rem;
+    @media screen and (max-width: 768px) {
+      font-size: 16px;
+      line-height: 27px;
+      padding: 2rem;
+    }
   }
 }
 </style>

@@ -45,7 +45,8 @@ export default {
 
 <style lang="scss" scoped>
 .block {
-  padding-bottom: 2rem;
+  padding-bottom: 3rem;
+  padding-top: 6rem;
 
   h3 {
     font-size: 40px;

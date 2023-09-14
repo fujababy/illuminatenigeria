@@ -113,7 +113,7 @@ export default {
     padding-top: 5rem;
     padding-bottom: 3rem;
     width: 100%;
-    line-height: 1.4;
+    line-height: 27px;
     border-right: 1px solid #000;
 
     @media screen and (max-width: 820px) {
@@ -138,7 +138,7 @@ export default {
     li {
       font-size: 16px;
       font-weight: 300;
-      padding: 0px 30px 0px 0px;
+      padding: 0px 10px 0px 0px;
     }
     .list__container,
     section,

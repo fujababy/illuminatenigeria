@@ -60,6 +60,11 @@
 
 <style lang="scss" scoped>
 .navbar {
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  width: 100%;
+
   .collapse {
     @media screen and (max-width: 768px) {
       margin-top: 2rem;
@@ -79,11 +84,12 @@
   font-size: 2rem;
 
   @media screen and (max-width: 768px) {
-    font-size: 15px;
+    font-size: 16px;
   }
 }
 
 .navbar-nav {
+  font-size: 2rem;
   @media screen and (max-width: 768px) {
     font-size: 16px;
   }

@@ -48,7 +48,7 @@ export default {
 h3 {
   font-size: 40px;
   text-align: center;
-  margin-top: 5rem;
+  margin-top: 9rem;
 }
 
 p {
@@ -57,8 +57,8 @@ p {
   // max-width: 984px;
   margin: auto;
   font-weight: 300;
-  margin-top: 20px;
-  padding: 5rem;
+
+  padding: 3rem 5rem;
   margin-bottom: 5rem;
 
   @media screen and (max-width: 768px) {
