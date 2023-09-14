@@ -52,6 +52,7 @@
       li {
         @media screen and (max-width: 768px) {
           border-bottom: 1px solid #393939;
+          width: 100%;
         }
       }
     }
