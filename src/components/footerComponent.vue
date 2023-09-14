@@ -91,10 +91,10 @@ export default {
 <style lang="scss" scoped>
 .block {
   display: flex;
-  padding-top: 5rem;
+
   padding-left: 180px;
   padding-right: 180px;
-  column-gap: 5rem;
+  // column-gap: 5rem;
   // margin-bottom: 5rem;
   // justify-content: center;
 
@@ -110,7 +110,8 @@ export default {
   .list__container {
     display: flex;
     justify-content: space-between;
-
+    padding-top: 5rem;
+    padding-bottom: 3rem;
     width: 100%;
     line-height: 1.4;
     border-right: 1px solid #000;
@@ -155,7 +156,8 @@ export default {
   }
 
   .social__container {
-    // padding-top: 2rem;
+    padding-top: 5rem;
+
     width: 100%;
     img {
       width: 30px;
