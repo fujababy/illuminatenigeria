@@ -108,7 +108,7 @@ export default {
     padding-bottom: 3rem;
     padding-left: 0;
     padding-right: 0;
-    padding-top: 2rem;
+    padding-top: 1rem;
   }
 
   .list__container {
