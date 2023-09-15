@@ -12,15 +12,15 @@
     </h3>
     <p>Together, we can create a thriving country powered by sun.</p>
     <div class="btn__container">
-      <router-link :to="{ name: 'donate' }">
+      <!-- <router-link :to="{ name: 'donate' }">
         <button class="btnn btnn-primary btn-margin btn--width">Donate</button>
-      </router-link>
+      </router-link> -->
       <!-- <button class="btnn btnn-primary btn--width">Get Involved</button> -->
 
       <!-- Button trigger modal -->
       <button
         type="button"
-        class="btnn btnn-primary btn--width"
+        class="btnn btnn-primary btn-margin btn--width"
         data-bs-toggle="modal"
         data-bs-target="#staticBackdrop"
       >
@@ -49,18 +49,68 @@
               ></button>
             </div>
             <div class="modal-body">
-              <!-- <h1 class="text-dark">GET INVOLVED</h1> -->
               <div class="text-dark">
                 <p>
                   We provide several options for you to contribute: You can donate through bank
-                  transfers or donate through crypto. Below are the accounts to make payment
+                  transfers or donate through crypto. Below is the bank account to make payment to.
+                  To make donations through crypto, please click on 'DONATE' on the navigation link.
                 </p>
 
                 <p>Guaranty Trust Bank (GTB)</p>
-                <p>Account Name: Olaniran Taiwo Sikiru</p>
+                <p>Account Name: Olaniran Taiwo</p>
                 <p>Account Type: Savings Account</p>
                 <p>Account No: 0140368030</p>
               </div>
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-black text-bg-dark" data-bs-dismiss="modal">
+                Close
+              </button>
+              <button type="button" class="btn btnn-primary" data-bs-dismiss="modal">
+                Understood
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Button trigger modal -->
+      <!-- <button
+        type="button"
+        class="btnn btnn-primary btn--width"
+        data-bs-toggle="modal"
+        data-bs-target="#staticBackdrop"
+      >
+        Get Involved
+      </button> -->
+
+      <!-- Modal -->
+      <div
+        class="modal fade"
+        id="staticBackdrop"
+        data-bs-backdrop="static"
+        data-bs-keyboard="false"
+        tabindex="-1"
+        aria-labelledby="staticBackdropLabel"
+        aria-hidden="true"
+      >
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h1 class="modal-title fs-5 text-dark" id="staticBackdropLabel">GET INVOLVED</h1>
+              <button
+                type="button"
+                class="btn-close"
+                data-bs-dismiss="modal"
+                aria-label="Close"
+              ></button>
+            </div>
+            <div class="modal-body">
+              <p class="text-dark">
+                Illuminate Nigeria partners with foundations, and others on communications
+                campaigns, impact programs, product design, marketing, and project implementation.
+                Contact us to learn more about getting involved with Illuminate Nigeria.
+              </p>
             </div>
             <div class="modal-footer">
               <button type="button" class="btn btn-black text-bg-dark" data-bs-dismiss="modal">
@@ -79,7 +129,7 @@
         type="button"
         class="btnn btnn-primary btn--width"
         data-bs-toggle="modal"
-        data-bs-target="#staticBackdrop"
+        data-bs-target="#exampleModal"
       >
         Get Involved
       </button>
@@ -87,17 +137,15 @@
       <!-- Modal -->
       <div
         class="modal fade"
-        id="staticBackdrop"
-        data-bs-backdrop="static"
-        data-bs-keyboard="false"
+        id="exampleModal"
         tabindex="-1"
-        aria-labelledby="staticBackdropLabel"
+        aria-labelledby="exampleModalLabel"
         aria-hidden="true"
       >
-        <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-dialog">
           <div class="modal-content">
             <div class="modal-header">
-              <h1 class="modal-title fs-5 text-dark" id="staticBackdropLabel">GET INVOLVED</h1>
+              <h1 class="modal-title fs-5 text-dark" id="exampleModalLabel">GET INVOLVED</h1>
               <button
                 type="button"
                 class="btn-close"
@@ -105,21 +153,17 @@
                 aria-label="Close"
               ></button>
             </div>
-            <div class="modal-body">
-              <!-- <h1 class="text-dark">GET INVOLVED</h1> -->
-              <p class="text-dark">
-                Illuminate Nigeria partners with foundations, and others on communications
-                campaigns, impact programs, product design, marketing, and project implementation.
-                Contact us to learn more about getting involved with Illuminate Nigeria.
-              </p>
-            </div>
+            <div class="modal-body">...</div>
+            <p class="text-dark">
+              Illuminate Nigeria partners with foundations, and others on communications campaigns,
+              impact programs, product design, marketing, and project implementation. Contact us to
+              learn more about getting involved with Illuminate Nigeria.
+            </p>
             <div class="modal-footer">
               <button type="button" class="btn btn-black text-bg-dark" data-bs-dismiss="modal">
                 Close
               </button>
-              <button type="button" class="btn btnn-primary" data-bs-dismiss="modal">
-                Understood
-              </button>
+              <button type="button" class="btn btnn-primary">I understood</button>
             </div>
           </div>
         </div>
