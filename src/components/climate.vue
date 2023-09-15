@@ -58,7 +58,9 @@
               <button type="button" class="btn btn-black text-bg-dark" data-bs-dismiss="modal">
                 Close
               </button>
-              <button type="button" class="btn btnn-primary">Understood</button>
+              <button type="button" class="btn btnn-primary" data-bs-dismiss="modal">
+                Understood
+              </button>
             </div>
           </div>
         </div>
