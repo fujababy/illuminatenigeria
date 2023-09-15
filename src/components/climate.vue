@@ -39,7 +39,7 @@
         <div class="modal-dialog modal-dialog-centered">
           <div class="modal-content">
             <div class="modal-header">
-              <h1 class="modal-title fs-5" id="staticBackdropLabel">Modal title</h1>
+              <h1 class="modal-title fs-5 text-dark" id="staticBackdropLabel">GET INVOLVED</h1>
               <button
                 type="button"
                 class="btn-close"
@@ -48,6 +48,7 @@
               ></button>
             </div>
             <div class="modal-body">
+              <!-- <h1 class="text-dark">GET INVOLVED</h1> -->
               <p class="text-dark">
                 Illuminate Nigeria partners with foundations, and others on communications
                 campaigns, impact programs, product design, marketing, and project implementation.
