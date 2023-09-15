@@ -3,18 +3,14 @@
     <section>
       <div class="newsletter">
         <h2>Sign up to our newsletter and stay informed.</h2>
-        <form class="form-group">
+        <form action="https://formspree.io/f/mzblvrdd" method="POST" class="form-group">
           <div>
-            <input id="name" type="text" placeholder="First Name" />
+            <input id="name" type="text" placeholder="First Name" name="name" />
+            <input id="name" type="text" placeholder="Last Name" name="name" />
+            <input id="email" type="text" placeholder="Email" name="email" />
           </div>
-          <div>
-            <input id="name" type="text" placeholder="Last Name" />
-          </div>
-          <div>
-            <input id="email" type="email" placeholder="Email" />
-          </div>
+          <button class="btn__news" type="submit">Submit</button>
         </form>
-        <button class="btn__news" type="reset">Submit</button>
       </div>
     </section>
 
@@ -133,10 +129,6 @@ export default {
     }
   }
   .form-group {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-
     @media screen and (max-width: 768px) {
       flex-direction: column;
       row-gap: 2rem;
@@ -144,10 +136,9 @@ export default {
 
     input {
       margin: 20px;
-      // padding: 10px;
+
       border: none;
-      // max-width: 221px;
-      // height: 50px;
+      border-radius: 12px;
       padding: 20px;
       font-size: 16px;
 
@@ -169,7 +160,11 @@ export default {
     margin-top: 2rem;
     color: #fff;
     padding: 16px 37.5px;
-    border-radius: 25px;
+    border-radius: 12px;
+  }
+
+  .btn__news:hover {
+    background: #454242;
   }
 }
 
