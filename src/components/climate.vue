@@ -15,7 +15,54 @@
       <router-link :to="{ name: 'donate' }">
         <button class="btnn btnn-primary btn-margin btn--width">Donate</button>
       </router-link>
-      <button class="btnn btnn-primary btn--width">Get Involved</button>
+      <!-- <button class="btnn btnn-primary btn--width">Get Involved</button> -->
+      <!-- Button trigger modal -->
+      <button
+        type="button"
+        class="btnn btnn-primary btn--width"
+        data-bs-toggle="modal"
+        data-bs-target="#staticBackdrop"
+      >
+        Get Involved
+      </button>
+
+      <!-- Modal -->
+      <div
+        class="modal fade"
+        id="staticBackdrop"
+        data-bs-backdrop="static"
+        data-bs-keyboard="false"
+        tabindex="-1"
+        aria-labelledby="staticBackdropLabel"
+        aria-hidden="true"
+      >
+        <div class="modal-dialog modal-dialog-centered">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h1 class="modal-title fs-5" id="staticBackdropLabel">Modal title</h1>
+              <button
+                type="button"
+                class="btn-close"
+                data-bs-dismiss="modal"
+                aria-label="Close"
+              ></button>
+            </div>
+            <div class="modal-body">
+              <p class="text-dark">
+                Illuminate Nigeria partners with foundations, and others on communications
+                campaigns, impact programs, product design, marketing, and project implementation.
+                Contact us to learn more about getting involved with Illuminate Nigeria.
+              </p>
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-black text-bg-dark" data-bs-dismiss="modal">
+                Close
+              </button>
+              <button type="button" class="btn btnn-primary">Understood</button>
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
   </section>
 </template>

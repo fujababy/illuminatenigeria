@@ -12,3 +12,10 @@ const app = createApp(App)
 app.use(router)
 
 app.mount('#app')
+
+const myModal = document.getElementById('myModal')
+const myInput = document.getElementById('myInput')
+
+myModal.addEventListener('shown.bs.modal', () => {
+  myInput.focus()
+})
