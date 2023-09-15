@@ -12,7 +12,7 @@
       <footer>
         <div class="media">
           <div class="media__body">
-            <h3 class="media__title quote__author">Olaniran Taiwo</h3>
+            <h3 class="media__title quote__author">Olaniran Fuja</h3>
             <p class="quote__organization">Founder</p>
           </div>
         </div>
@@ -84,7 +84,7 @@
       opacity: 0.4;
       font-style: normal;
       font-size: 2rem;
-      margin-bottom: 2rem;
+      // margin-bottom: 2rem;
 
       @media screen and (max-width: 768px) {
         font-size: 16px;

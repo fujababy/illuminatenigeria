@@ -25,7 +25,9 @@
 
               <!-- <router-link :to="{ name: '' }"> -->
               <li>
-                <a href="//api.whatsapp.com/send?phone=2348132852593&text=ILLUMINATE NIGERIA"
+                <a
+                  href="//api.whatsapp.com/send?phone=2348132852593&text=ILLUMINATE NIGERIA"
+                  target="blank"
                   >Contact</a
                 >
               </li>
@@ -51,22 +53,26 @@
 
         <div class="social__container">
           <div class="icon__container">
-            <a href="https://www.facebook.com/Fujababy">
+            <a href="https://www.facebook.com/Fujababy" target="_blank">
               <img src="../assets/svg/facebook-icon-1.svg" alt="" />
             </a>
 
-            <a href="//api.whatsapp.com/send?phone=2348132852593&text=ILLUMINATE NIGERIA">
+            <a
+              href="//api.whatsapp.com/send?phone=2348132852593&text=ILLUMINATE NIGERIA"
+              target="_blank"
+            >
               <img src="../assets/svg/newwhatsapp.svg" alt="" />
             </a>
 
             <a
               href="https://www.linkedin.com/in/olaniran-taiwo-352598201
             "
+              target="_blank"
             >
               <img src="../assets/svg/linkedin-icon-1.svg" alt="" />
             </a>
 
-            <a href="https://www.instagram.com/fujababyy/">
+            <a href="https://www.instagram.com/fujababyy/" target="_blank">
               <img src="../assets/svg/instagram-glyph-1.svg" />
             </a>
           </div>
