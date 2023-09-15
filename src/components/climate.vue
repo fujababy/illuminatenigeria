@@ -56,10 +56,10 @@
                   To make donations through crypto, please click on 'DONATE' on the navigation link.
                 </p>
 
-                <p>Guaranty Trust Bank (GTB)</p>
+                <!-- <p>Guaranty Trust Bank (GTB)</p>
                 <p>Account Name: Olaniran Taiwo</p>
                 <p>Account Type: Savings Account</p>
-                <p>Account No: 0140368030</p>
+                <p>Account No: 0140368030</p> -->
               </div>
             </div>
             <div class="modal-footer">
@@ -153,12 +153,14 @@
                 aria-label="Close"
               ></button>
             </div>
-            <div class="modal-body">...</div>
-            <p class="text-dark">
-              Illuminate Nigeria partners with foundations, and others on communications campaigns,
-              impact programs, product design, marketing, and project implementation. Contact us to
-              learn more about getting involved with Illuminate Nigeria.
-            </p>
+            <div class="modal-body">
+              <p class="text-dark">
+                Illuminate Nigeria partners with foundations, and others on communications
+                campaigns, impact programs, product design, marketing, and project implementation.
+                Contact us to learn more about getting involved with Illuminate Nigeria.
+              </p>
+            </div>
+
             <div class="modal-footer">
               <button type="button" class="btn btn-black text-bg-dark" data-bs-dismiss="modal">
                 Close

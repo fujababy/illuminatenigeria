@@ -13,78 +13,6 @@
         </form>
       </div>
     </section>
-
-    <!-- <section>
-      <div class="aiti__bootcamp__registration__wrapper" id="register">
-        <div class="bootcamp__registration">
-          <div class="aiti--heading">
-            <h1>
-              Don't miss out on this amazing opportunity to learn from the best in the industry.
-              Register today to get shortlisted!
-            </h1>
-          </div>
-          <div class="bootcamp__registration--form">
-            <vee-form :validation-schema="regSchema" @submit="register">
-              <div class="container">
-                <div class="input--container">
-                  <label for="first_name" class="form-label">First Name</label>
-                  <vee-field
-                    type="text"
-                    class="form-control"
-                    id="first_name"
-                    name="first_name"
-                    placeholder="Your first name"
-                  />
-                  <error-message class="text-danger" name="first_name" />
-                </div>
-                <div class="input--container">
-                  <label for="last_name" class="form-label">Last Name</label>
-                  <vee-field
-                    type="text"
-                    class="form-control"
-                    id="last_name"
-                    name="last_name"
-                    placeholder="Your last name"
-                  />
-                  <error-message class="text-danger" name="last_name" />
-                </div>
-                <div class="input--container">
-                  <label for="email" class="form-label">Email address</label>
-                  <vee-field
-                    type="email"
-                    class="form-control"
-                    id="email"
-                    name="email"
-                    placeholder="Your email address"
-                  />
-                  <error-message class="text-danger" name="email" />
-                </div>
-                <div class="input--container">
-                  <label for="phone" class="form-label">WhatsApp Number</label>
-                  <vue-tel-input
-                    v-model="phone"
-                    ref="phone"
-                    @input="checkPhone"
-                    name="phone"
-                    mode="international"
-                  ></vue-tel-input>
-                </div>
-               
-                <div class="d-grid gap-2">
-                  <button class="btn aiti-btn text-center" type="submit" :disabled="!phone">
-                    <span v-if="!loading"> Register Now</span>
-
-                    <div v-else class="spinner-border text-light" role="status">
-                      <span class="visually-hidden">Loading...</span>
-                    </div>
-                  </button>
-                </div>
-              </div>
-            </vee-form>
-          </div>
-        </div>
-      </div>
-    </section> -->
   </div>
 </template>
 
@@ -112,6 +40,7 @@ export default {
   background: #ffdd00;
   // width: 100%;
   padding-bottom: 5rem;
+  overflow-x: hidden;
 
   @media screen and (max-width: 768px) {
     padding-right: 2rem;
