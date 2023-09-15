@@ -1,8 +1,9 @@
 <template>
   <nav class="navbar navbar-expand-lg bg-dark navbar-dark pt-3 pb-3">
     <div class="container">
-      <a href="/" class="navbar-brand">ILLUMINATE NIGERIA</a>
-      <span><img src="" alt="" /></span>
+      <!-- <a href="/" class="navbar-brand"> -->
+      <img class="nav__logo" src="../../public/default-monochrome-white.svg" alt="" />
+      <!-- </a> -->
 
       <button
         class="navbar-toggler"
@@ -80,11 +81,21 @@
     }
   }
 }
+
+.container {
+  .nav__logo {
+    width: 300px;
+
+    @media screen and (max-width: 768px) {
+      width: 200px;
+    }
+  }
+}
 .navbar-brand {
-  font-size: 2rem;
+  // font-size: 2rem;
 
   @media screen and (max-width: 768px) {
-    font-size: 16px;
+    // font-size: 16px;
   }
 }
 
