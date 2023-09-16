@@ -15,8 +15,8 @@
     </slide>
 
     <template #addons>
-      <navigation class="navi" />
-      <!-- <pagination /> -->
+      <navigation />
+      <pagination />
     </template>
   </carousel>
 </template>
@@ -75,11 +75,7 @@ export default {
 
 <style lang="scss" scoped>
 .carousel {
-  padding-top: 6rem;
-
-  @media screen and (max-width: 768px) {
-    padding-top: 4.7rem;
-  }
+  padding-top: 4rem;
   .carousel__item {
     //   min-height: 200px;
     width: 100%;
@@ -122,27 +118,27 @@ export default {
     // :root {
     //   --carousel-color-primary: red;
     // }
-    .carousel__prev,
-    .carousel__next {
-      margin-top: 4rem;
-      box-sizing: content-box;
-      border: 5px solid white;
+
+    .size {
+      width: 100%;
+      // height: 650px;
+
+      @media screen and (min-width: 768px) {
+        height: 650px;
+      }
+    }
+
+    .image__size {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
     }
   }
-
-  .size {
-    width: 100%;
-    // height: 650px;
-
-    @media screen and (min-width: 768px) {
-      height: 650px;
-    }
-  }
-
-  .image__size {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
+  .carousel__prev,
+  .carousel__next {
+    margin-top: 4rem;
+    box-sizing: content-box;
+    border: 5px solid white;
   }
 }
 </style>
