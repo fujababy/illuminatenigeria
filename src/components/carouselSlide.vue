@@ -57,11 +57,11 @@ export default {
           img: featured4,
           heading: 'SOLAR IS AGRICULTURE'
         },
-        {
-          id: 3,
-          img: featured3,
-          heading: 'SOLAR IS CREATIVITY'
-        },
+        // {
+        //   id: 3,
+        //   img: featured3,
+        //   heading: 'SOLAR IS CREATIVITY'
+        // },
         {
           id: 1,
           img: featured1,
