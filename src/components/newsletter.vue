@@ -26,12 +26,12 @@ export default {
 
 <style lang="scss" scoped>
 .newsletter {
-  padding-top: 5rem;
+  padding-top: 7rem;
   text-align: center;
   // padding: 85px;
   background: #ffdd00;
   width: 100%;
-  padding-bottom: 5rem;
+  padding-bottom: 7rem;
   overflow-x: hidden;
 
   @media screen and (max-width: 768px) {

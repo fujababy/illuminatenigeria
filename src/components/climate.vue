@@ -51,15 +51,15 @@
             <div class="modal-body">
               <div class="text-dark">
                 <p>
-                  We provide several options for you to contribute: You can donate through bank
-                  transfers or donate through crypto. Below is the bank account to make payment to.
-                  To make donations through crypto, please click on 'DONATE' on the navigation link.
+                  We provide a option for you to contribute: You can donate through bank transfer.
+                  Below is the bank account to make payment to. To make donations through crypto,
+                  please click on 'DONATE' on the navigation link.
                 </p>
 
-                <!-- <p>Guaranty Trust Bank (GTB)</p>
-                <p>Account Name: Olaniran Taiwo</p>
+                <p>Guaranty Trust Bank (GTB)</p>
+                <p>Account Name: Illuminate Nigeria</p>
                 <p>Account Type: Savings Account</p>
-                <p>Account No: 0140368030</p> -->
+                <p>Account No: xxxxxxxx</p>
               </div>
             </div>
             <div class="modal-footer">

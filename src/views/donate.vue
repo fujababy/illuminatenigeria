@@ -9,14 +9,14 @@
       </p>
       <h3>How to Donate</h3>
       <p>
-        We provide several options for you to contribute: You can donate through bank transfers or
-        donate through crypto. Below are the accounts to make payment
+        We provide several options for you to contribute: You can donate through bank transfer.
+        Below is the account to make payment to.
       </p>
       <h3>Donate to ILLUMINATE NIGERIA</h3>
       <p>Guaranty Trust Bank (GTB)</p>
-      <p>Account Name: Olaniran Taiwo Sikiru</p>
+      <p>Account Name: illuminate Nigeria</p>
       <p>Account Type: Savings Account</p>
-      <p>Account No: 0140368030</p>
+      <p>Account No: xxxxxxxxx</p>
 
       <p>or</p>
 
