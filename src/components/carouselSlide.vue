@@ -15,8 +15,8 @@
     </slide>
 
     <template #addons>
-      <navigation />
-      <pagination />
+      <navigation class="navi" />
+      <!-- <pagination /> -->
     </template>
   </carousel>
 </template>
@@ -79,7 +79,8 @@ export default {
   .carousel__item {
     //   min-height: 200px;
     width: 100%;
-    height: 100%;
+    // height: 100%;
+    height: 650px;
     position: relative;
     font-size: 40px;
     flex-direction: column;
@@ -90,6 +91,7 @@ export default {
 
     @media screen and (max-width: 768px) {
       font-size: 16px;
+      height: 350px;
     }
 
     .carousel__text {
@@ -118,27 +120,27 @@ export default {
     // :root {
     //   --carousel-color-primary: red;
     // }
-
-    .size {
-      width: 100%;
-      // height: 650px;
-
-      @media screen and (min-width: 768px) {
-        height: 650px;
-      }
-    }
-
-    .image__size {
-      width: 100%;
-      height: 100%;
-      object-fit: cover;
+    .carousel__prev,
+    .carousel__next {
+      margin-top: 4rem;
+      box-sizing: content-box;
+      border: 5px solid white;
     }
   }
-  .carousel__prev,
-  .carousel__next {
-    margin-top: 4rem;
-    box-sizing: content-box;
-    border: 5px solid white;
+
+  // .size {
+  //   width: 100%;
+  //   // height: 650px;
+
+  //   @media screen and (min-width: 768px) {
+  //     height: 650px;
+  //   }
+  // }
+
+  .image__size {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
   }
 }
 </style>
