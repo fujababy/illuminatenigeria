@@ -75,7 +75,11 @@ export default {
 
 <style lang="scss" scoped>
 .carousel {
-  padding-top: 4rem;
+  padding-top: 6rem;
+
+  @media screen and (max-width: 768px) {
+    padding-top: 4.7rem;
+  }
   .carousel__item {
     //   min-height: 200px;
     width: 100%;

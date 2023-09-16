@@ -136,6 +136,11 @@ export default {
     }
 
     .list__container,
+    section {
+      margin-bottom: 1.5rem;
+    }
+
+    .list__container,
     section,
     ul,
     h1 {
