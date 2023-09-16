@@ -2,7 +2,9 @@
   <nav class="navbar navbar-expand-lg bg-dark navbar-dark pt-3 pb-3">
     <div class="container">
       <!-- <a href="/" class="navbar-brand"> -->
-      <img class="nav__logo" src="../../public/default-monochrome-white.svg" alt="" />
+      <a href="/">
+        <img class="nav__logo" src="../../public/default-monochrome-white.svg" alt="" />
+      </a>
       <!-- </a> -->
 
       <button
