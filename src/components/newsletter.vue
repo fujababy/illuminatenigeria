@@ -58,7 +58,7 @@ export default {
 
     @media screen and (max-width: 768px) {
       flex-direction: column;
-      row-gap: 1rem;
+      row-gap: 2rem;
     }
 
     input {
