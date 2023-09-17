@@ -53,7 +53,7 @@
                 <p>
                   We provide a option for you to contribute: You can donate through bank transfer.
                   Below is the bank account to make payment to. To make donations through crypto,
-                  please click on this <a href="/donate">link.</a>
+                  please click on this <a href="donate">link.</a>
                 </p>
 
                 <p>Guaranty Trust Bank (GTB)</p>
