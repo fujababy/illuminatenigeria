@@ -72,7 +72,7 @@
               <img src="../assets/svg/linkedin-icon-1.svg" alt="" />
             </a>
 
-            <a href="https://" target="_blank">
+            <a href="https://www.instagram.com/illuminatenigeria/" target="_blank">
               <img src="../assets/svg/instagram-glyph-1.svg" />
             </a>
           </div>
