@@ -1,5 +1,5 @@
 <template>
-  <nav class="navbar navbar-expand-lg bg-dark navbar-dark pt-3 pb-3">
+  <nav class="navbar navbar-expand-lg bg-dark navbar-dark pt-3 pb-3 fixed-top navbar-scrolled">
     <div class="container">
       <!-- <a href="/" class="navbar-brand"> -->
       <a href="/">
@@ -39,58 +39,64 @@
 <script></script>
 
 <style lang="scss" scoped>
-.navbar {
-  position: fixed;
-  z-index: 1;
-  top: 0;
-  width: 100%;
+nav {
+  background: black;
+  box-shadow: 0 10px 10px rgba(0, 0, 0, 0.15);
+  .navbar {
+    // position: fixed;
+    // z-index: 1;
+    // top: 0;
+    // width: 100%;
 
-  .collapse {
-    @media screen and (max-width: 768px) {
-      margin-top: 2rem;
-    }
+    .collapse {
+      @media screen and (max-width: 768px) {
+        margin-top: 2rem;
+      }
 
-    ul {
-      li {
-        @media screen and (max-width: 768px) {
-          border-bottom: 1px solid #393939;
-          width: 100%;
+      ul {
+        li {
+          @media screen and (max-width: 768px) {
+            border-bottom: 1px solid #393939;
+            width: 100%;
+          }
         }
       }
     }
   }
-}
+  .navbar-scrolled {
+  }
 
-.container {
-  .nav__logo {
-    width: 300px;
+  .container {
+    .nav__logo {
+      width: 300px;
 
-    @media screen and (max-width: 768px) {
-      width: 200px;
+      @media screen and (max-width: 768px) {
+        width: 200px;
+      }
     }
   }
-}
-.navbar-brand {
-  // font-size: 2rem;
+  .navbar-brand {
+    // font-size: 2rem;
 
-  @media screen and (max-width: 768px) {
-    // font-size: 16px;
-  }
-}
-
-.navbar-nav {
-  font-size: 2rem;
-  @media screen and (max-width: 768px) {
-    font-size: 16px;
-  }
-
-  .nav-item {
     @media screen and (max-width: 768px) {
+      // font-size: 16px;
     }
   }
-}
 
-.fs {
-  font-size: 2rem;
+  .navbar-nav {
+    font-size: 2rem;
+    @media screen and (max-width: 768px) {
+      font-size: 16px;
+    }
+
+    .nav-item {
+      @media screen and (max-width: 768px) {
+      }
+    }
+  }
+
+  .fs {
+    font-size: 2rem;
+  }
 }
 </style>
