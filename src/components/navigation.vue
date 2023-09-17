@@ -1,11 +1,11 @@
 <template>
   <nav class="navbar navbar-expand-lg bg-dark navbar-dark pt-3 pb-3">
     <div class="container">
-      <a href="/" class="navbar-brand">
-        <a href="/">
-          <img class="nav__logo" src="../../public/default-monochrome-white.svg" alt="" />
-        </a>
+      <!-- <a href="/" class="navbar-brand"> -->
+      <a href="/">
+        <img class="nav__logo" src="../assets/default-monochrome-white.svg" alt="" />
       </a>
+      <!-- </a> -->
 
       <button
         class="navbar-toggler"
@@ -15,29 +15,6 @@
       >
         <span class="navbar-toggler-icon"></span>
       </button>
-      <!-- 
-      <div class="collapse navbar-collapse" id="navmenu">
-        <ul class="navbar-nav ms-auto col-sm-mt-5">
-          <li class="nav-item me-5">
-            <a href="/" class="nav-link">HOME</a>
-          </li>
-          <router-link :to="{ name: 'aboutUs' }">
-            <li class="nav-item me-5">
-              <a href="#" class="nav-link">ABOUT</a>
-            </li>
-          </router-link>
-          <router-link :to="{ name: 'purpose' }">
-            <li class="nav-item me-5">
-              <a href="#" class="nav-link">PURPOSE</a>
-            </li>
-          </router-link>
-          <router-link :to="{ name: 'donate' }">
-            <li class="nav-item me-5">
-              <a href="#" class="nav-link">DONATE</a>
-            </li>
-          </router-link>
-        </ul>
-      </div> -->
 
       <div class="collapse navbar-collapse" id="navmenu">
         <ul class="navbar-nav ms-auto col-sm-mt-5">
