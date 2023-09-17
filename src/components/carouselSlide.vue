@@ -80,7 +80,7 @@ export default {
     //   min-height: 200px;
     width: 100%;
     // height: 100%;
-    height: 650px;
+    height: 750px;
     position: relative;
     font-size: 40px;
     flex-direction: column;
