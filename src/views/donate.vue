@@ -14,14 +14,14 @@
       </p>
       <h3>Donate to ILLUMINATE NIGERIA</h3>
       <p>Guaranty Trust Bank (GTB)</p>
-      <p>Account Name: illuminate Nigeria</p>
+      <p>Account Name: Illuminate Nigeria</p>
       <p>Account Type: Savings Account</p>
       <p>Account No: xxxxxxxxx</p>
 
       <p>or</p>
 
       <p>BTC</p>
-      <p>gh687hcd4r57dce800YHer9utr4G2Jgb46f8GGE</p>
+      <p>gh687hcd4r57dce800YHer9utr4G2Jgb46f</p>
     </section>
     <climate />
     <footerComponent />
