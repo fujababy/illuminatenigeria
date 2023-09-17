@@ -5,7 +5,7 @@
       ACTI
       <span class="nowrap">
         <figure>
-          <img class="img-sun" src="../assets/images/sun.png" alt="" />
+          <img class="img-sun" src="../assets/images/sun.svg" alt="" />
         </figure>
       </span>
       N

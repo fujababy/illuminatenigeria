@@ -50,6 +50,7 @@
       width: 100%;
       height: 600px;
       object-fit: contain;
+      border-radius: 7px;
 
       @media screen and (max-width: 768px) {
         height: 450px;

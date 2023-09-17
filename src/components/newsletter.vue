@@ -4,10 +4,11 @@
       <div class="newsletter">
         <h2>Sign up to our newsletter and stay informed.</h2>
         <form action="https://formspree.io/f/mzblvrdd" method="POST" class="form-group">
+          <div class="form__input"></div>
           <input id="name" type="text" placeholder="First Name" name="name" />
           <input id="name" type="text" placeholder="Last Name" name="name" />
           <input id="email" type="text" placeholder="Email" name="email" />
-          <button class="btn__news" type="submit">Submit</button>
+          <button class="btn__news" type="submit">SUBMIT</button>
         </form>
       </div>
     </section>
@@ -61,11 +62,16 @@ export default {
       row-gap: 2rem;
     }
 
+    @media screen and (max-width: 820px) {
+      flex-direction: column;
+      row-gap: 2rem;
+    }
+
     input {
       // margin: 20px;
 
       border: none;
-      // border-radius: 8px;
+      border-radius: 8px;
       padding: 15px 0 15px 10px;
       font-size: 16px;
 
@@ -91,9 +97,10 @@ export default {
     font-size: 16px;
     background: #3d3d3d;
     cursor: pointer;
-    // margin-top: 2rem;
+    border-radius: 8px;
     color: #fff;
     padding: 15px 40px;
+    letter-spacing: 2px;
 
     @media screen and (max-width: 768px) {
       border-radius: 12px;
