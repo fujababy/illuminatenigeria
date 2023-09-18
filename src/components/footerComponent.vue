@@ -22,8 +22,6 @@
           <section>
             <ul>
               <h1>FIND US</h1>
-
-              <!-- <router-link :to="{ name: '' }"> -->
               <li>
                 <a
                   href="//api.whatsapp.com/send?phone=2348132852593&text=ILLUMINATE NIGERIA"
@@ -31,7 +29,6 @@
                   >Contact</a
                 >
               </li>
-              <!-- </router-link> -->
 
               <router-link :to="{ name: '' }">
                 <li>Locations</li>
