@@ -91,7 +91,7 @@ export default {
     border-radius: 8px;
     color: #fff;
     padding: 15px 40px;
-    letter-spacing: 2px;
+    letter-spacing: 12px;
 
     @media screen and (max-width: 768px) {
       border-radius: 12px;
