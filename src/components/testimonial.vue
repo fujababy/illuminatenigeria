@@ -1,5 +1,5 @@
 <template>
-  <section class="block" data-aos="fade-up" data-aos-duration="3000">
+  <section class="block" data-aos="zoom-out-up" data-aos-duration="3900">
     <figure>
       <img class="founder-img" src="../assets/images/unnamed.jpg" alt="" />
     </figure>

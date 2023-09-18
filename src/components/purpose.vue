@@ -1,6 +1,6 @@
 <template>
   <section class="purpose">
-    <div data-aos="zoom-in">
+    <div data-aos="zoom-in-up" data-aos-duration="2500">
       <p>
         It is hard to believe that 86 million people in Nigeria don’t have access to energy. Energy
         is not just a convenient resource; energy powers lives and creates opportunities. It allows
