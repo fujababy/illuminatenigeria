@@ -1,8 +1,6 @@
 <template>
   <carousel :autoplay="4000" :items-to-show="1" :wrap-around="true" :transition="1000">
     <slide v-for="slide in sliderContents" :key="slide.id">
-      <!-- {{ slide }} -->
-
       <div class="carousel__item size">
         <transition name="fade" mode="out-in">
           <img class="image__size" :src="slide.img" alt="slider" />
@@ -23,7 +21,7 @@
 
 <script>
 import featured2 from '../assets/images/featured2.jpg'
-import featured3 from '../assets/images/featured3.png'
+// import featured3 from '../assets/images/featured3.png'
 import featured4 from '../assets/images/featured4.jpg'
 import featured1 from '../assets/images/featured1.jpg'
 
