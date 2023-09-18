@@ -16,7 +16,7 @@
       <p>Guaranty Trust Bank (GTB)</p>
       <p>Account Name: Illuminate Nigeria</p>
       <p>Account Type: Savings Account</p>
-      <p>Account No: xxxxxxxxx</p>
+      <p>Account No: xxxxxxxx</p>
 
       <p>or</p>
 
