@@ -29,15 +29,13 @@ export default {
 .newsletter {
   padding-top: 7rem;
   text-align: center;
-  // padding: 85px;
+
   background: #ffdd00;
   width: 100%;
   padding-bottom: 7rem;
   overflow-x: hidden;
 
   @media screen and (max-width: 768px) {
-    // padding-right: 2rem;
-    // padding-left: 2rem;
   }
 
   h2 {
@@ -68,22 +66,15 @@ export default {
     }
 
     input {
-      // margin: 20px;
-
       border: none;
       border-radius: 8px;
       padding: 15px 0 15px 10px;
       font-size: 16px;
 
       @media screen and (max-width: 820px) {
-        // margin-right: 0;
       }
 
       @media screen and (max-width: 768px) {
-        // display: flex;
-        // justify-content: center;
-        // align-items: center;
-        // margin: 0;
       }
     }
 

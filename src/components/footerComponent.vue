@@ -1,7 +1,7 @@
 <template>
   <div>
     <section>
-      <footer class="block">
+      <footer class="block" data-aos="fade-up" data-aos-duration="3000">
         <div class="list__container">
           <section>
             <ul>

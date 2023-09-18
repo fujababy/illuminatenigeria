@@ -1,10 +1,10 @@
 <template>
-  <section class="block">
+  <section class="block" data-aos="fade-up" data-aos-duration="3000">
     <figure>
       <img class="founder-img" src="../assets/images/unnamed.jpg" alt="" />
     </figure>
     <blockquote class="quote">
-      <p class="quote__text">
+      <p class="quote__text animate__animated animate__bounce">
         Bringing solar energy to everyone is simple: <br />
         It starts with you. <br />
         Let's take the power of the future into our own hands.
@@ -29,6 +29,15 @@
     </blockquote>
   </section>
 </template>
+
+<script>
+import { onMounted } from 'vue'
+import AOS from 'aos'
+
+onMounted(() => {
+  AOS.init()
+})
+</script>
 
 <style lang="scss" scoped>
 .block {
