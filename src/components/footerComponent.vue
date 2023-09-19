@@ -62,7 +62,7 @@
             </a>
 
             <a
-              href="https://www.linkedin.com/in/olaniran-taiwo-352598201
+              href="https://www.linkedin.com/company/97178846/admin/feed/posts/
             "
               target="_blank"
             >
