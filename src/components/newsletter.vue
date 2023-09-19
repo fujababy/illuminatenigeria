@@ -27,13 +27,14 @@ export default {
 
 <style lang="scss" scoped>
 .newsletter {
-  padding-top: 7rem;
+  // padding-top: 7rem;
   text-align: center;
 
   background: #ffdd00;
   width: 100%;
-  padding-bottom: 7rem;
+  // padding-bottom: 7rem;
   overflow-x: hidden;
+  padding: 7rem 2rem;
 
   @media screen and (max-width: 768px) {
   }
@@ -46,7 +47,7 @@ export default {
     @media screen and (max-width: 768px) {
       font-size: 22px;
       line-height: 1.3;
-      padding: 0 2rem;
+      // padding: 0 2rem;
     }
   }
   .form-group {
@@ -72,6 +73,7 @@ export default {
       font-size: 16px;
 
       @media screen and (max-width: 820px) {
+        width: 100%;
       }
 
       @media screen and (max-width: 768px) {
@@ -95,11 +97,16 @@ export default {
 
     @media screen and (max-width: 768px) {
       border-radius: 12px;
+      width: 100%;
+    }
+
+    @media screen and (max-width: 820px) {
+      width: 100%;
     }
   }
 
   .btn__news:hover {
-    background: #454242;
+    background: #514f4f;
   }
 }
 </style>

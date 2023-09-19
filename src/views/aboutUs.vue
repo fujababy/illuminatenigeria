@@ -21,7 +21,7 @@
         right. SSDGI is helping communities identify and initiate development measures; providing
         training and other capacity-building support to pro-poor organizations and individuals; and
         carrying out research and advocacy in favour of the under privileged people especially those
-        in the rural ares, both old and young.
+        in the rural ares, both old and young
       </p>
       <climate />
       <footerComponent />
