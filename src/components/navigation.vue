@@ -15,7 +15,7 @@
       >
         <!-- <span class="navbar-toggler-icon"></span> -->
         <span class="navbar-icon">
-          <img src="../assets/svg/hamburger-icon.svg" alt="" />
+          <img src="../assets/svg/menu-icon.png" alt="" />
         </span>
       </button>
 
