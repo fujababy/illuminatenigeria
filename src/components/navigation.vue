@@ -13,7 +13,10 @@
         data-bs-toggle="collapse"
         data-bs-target="#navmenu"
       >
-        <span class="navbar-toggler-icon"></span>
+        <!-- <span class="navbar-toggler-icon"></span> -->
+        <span class="navbar-icon">
+          <img src="../assets/svg/hamburger-icon.svg" alt="" />
+        </span>
       </button>
 
       <div class="collapse navbar-collapse" id="navmenu">
