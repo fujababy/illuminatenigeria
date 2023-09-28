@@ -196,10 +196,10 @@
     }
 
     .nowrap {
-      // .animate-bounce {
-      //   animation-duration: 2s;
-      //   animation-timing-function: ease-out;
-      // }
+      .animate-bounce {
+        animation-duration: 2s;
+        animation-timing-function: ease-out;
+      }
       figure {
         .img-sun {
           margin-top: -1rem;
