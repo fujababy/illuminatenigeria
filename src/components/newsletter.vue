@@ -9,8 +9,8 @@
           method="POST"
           class="form-group"
         >
-          <Field name="name" placeholder="First Name" :rules="validateName" />
-          <ErrorMessage class="error" name="name" />
+          <Field name="firstName" placeholder="First Name" :rules="validatefirstName" />
+          <ErrorMessage class="error" name="firstName" />
 
           <Field placeholder="Last Name" name="name" :rules="validateName" />
           <ErrorMessage class="error" name="name" />
@@ -38,7 +38,7 @@ export default {
     onSubmit(values) {
       console.log(JSON.stringify(values, null, 2))
     },
-    validateName(value) {
+    validatefirstName(value) {
       // if the field is empty
       if (!value) {
         return 'First Name is Required!'
@@ -110,8 +110,8 @@ export default {
     justify-content: center;
     align-items: center;
     column-gap: 1rem;
-    text-align: left;
-    // flex-direction: column;
+
+    flex-direction: column;
     row-gap: 2rem;
 
     @media screen and (max-width: 820px) {
@@ -124,6 +124,7 @@ export default {
       border-radius: 8px;
       padding: 15px 0 15px 10px;
       font-size: 16px;
+      width: 50%;
 
       @media screen and (max-width: 820px) {
         width: 100%;
@@ -142,6 +143,7 @@ export default {
       color: red;
       font-size: 14px;
       margin-top: -20px;
+      width: 50%;
       @media screen and (max-width: 820px) {
         width: 100%;
       }
@@ -156,6 +158,7 @@ export default {
     color: #fff;
     padding: 15px 40px;
     letter-spacing: 12px;
+    width: 50%;
 
     @media screen and (max-width: 768px) {
       border-radius: 12px;
