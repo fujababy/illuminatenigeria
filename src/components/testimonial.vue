@@ -30,21 +30,14 @@
   </section>
 </template>
 
-<script>
-import { onMounted } from 'vue'
-import AOS from 'aos'
-
-onMounted(() => {
-  AOS.init()
-})
-</script>
+<script></script>
 
 <style lang="scss" scoped>
 .block {
   display: flex;
   justify-content: center;
   align-items: center;
-  padding: 1rem;
+  padding: 2rem;
   border-radius: 7px;
   box-shadow: 0 0 20px 10px #f3f3f3;
   width: 80%;
@@ -94,7 +87,7 @@ onMounted(() => {
       opacity: 0.4;
       font-style: normal;
       font-size: 2rem;
-      // margin-bottom: 2rem;
+      margin-bottom: 2rem;
 
       @media screen and (max-width: 768px) {
         font-size: 16px;

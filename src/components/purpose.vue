@@ -20,7 +20,7 @@
 
 <style lang="scss" scoped>
 .purpose {
-  margin-bottom: 5rem;
+  // margin-bottom: 3rem;
   p {
     font-size: 22px;
     line-height: 37.4px;
@@ -28,7 +28,7 @@
     margin: auto;
     font-weight: 300;
     margin-top: 50px;
-    padding: 2rem;
+    padding: 3rem;
 
     @media screen and (max-width: 768px) {
       font-size: 18px;

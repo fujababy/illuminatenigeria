@@ -74,16 +74,6 @@
         </div>
       </div>
 
-      <!-- Button trigger modal -->
-      <!-- <button
-        type="button"
-        class="btnn btnn-primary btn--width"
-        data-bs-toggle="modal"
-        data-bs-target="#staticBackdrop"
-      >
-        Get Involved
-      </button> -->
-
       <!-- Modal -->
       <div
         class="modal fade"
@@ -239,6 +229,9 @@
   }
 
   .btn__container {
+    @media screen and (max-width: 768px) {
+      padding: 0 10rem;
+    }
     .btn {
     }
     .btn-margin {
@@ -246,6 +239,7 @@
 
       @media screen and (max-width: 768px) {
         margin-right: 0;
+        width: 100%;
       }
     }
     .btnn-primary {
@@ -257,10 +251,23 @@
       flex-direction: column;
       justify-content: center;
       align-items: center;
+      // width: 100%;
     }
 
     .btn--width {
       color: #000;
+      letter-spacing: 1px;
+      @media screen and (max-width: 768px) {
+        margin-right: 0;
+        width: 100%;
+      }
+
+      .btn--width:hover {
+        background: #f1db4d;
+      }
+    }
+    .btn--width:hover {
+      background: #f1db4d;
     }
   }
 }

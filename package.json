@@ -3,16 +3,17 @@
   "version": "0.0.0",
   "private": true,
   "scripts": {
-    "dev": "vite",
     "build": "vite build",
-    "preview": "vite preview",
     "lint": "eslint . --ext .vue,.js,.jsx,.cjs,.mjs --fix --ignore-path .gitignore",
-    "format": "prettier --write src/"
+    "dev": "vite",
+    "format": "prettier --write src/",
+    "preview": "vite preview"
   },
   "dependencies": {
     "aos": "^3.0.0-beta.6",
     "bootstrap": "^5.3.1",
     "bootstrap-vue": "^2.23.1",
+    "popper.js": "^1.16.1",
     "vee-validate": "^4.11.7",
     "vue": "^3.3.4",
     "vue-router": "^4.2.4",
@@ -23,10 +24,14 @@
     "@types/aos": "^3.0.4",
     "@vitejs/plugin-vue": "^4.3.1",
     "@vue/eslint-config-prettier": "^8.0.0",
+    "autoprefixer": "^10.4.16",
     "eslint": "^8.46.0",
     "eslint-plugin-vue": "^9.16.1",
+    "postcss": "^8.4.30",
     "prettier": "^3.0.0",
     "sass": "^1.66.1",
-    "vite": "^4.4.9"
+    "tailwindcss": "^3.3.3",
+    "vite": "^4.4.9",
+    "vue-cli-plugin-tailwind": "~3.0.0"
   }
 }

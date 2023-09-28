@@ -6,9 +6,13 @@ import 'bootstrap/dist/css/bootstrap.min.css'
 import { createApp } from 'vue'
 import App from './App.vue'
 import router from './router'
+import './assets/style.css'
+
+import './assets/main.css'
 
 import AOS from 'aos'
 import 'aos/dist/aos.css'
+import './assets/tailwind.css'
 
 AOS.init()
 
