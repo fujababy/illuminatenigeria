@@ -3,7 +3,7 @@
     <div class="container">
       <!-- <a href="/" class="navbar-brand"> -->
       <a href="/">
-        <img class="nav__logo" src="../assets/default-monochrome-white.svg" alt="" />
+        <img class="nav__logo animate-pulse" src="../assets/default-monochrome-white.svg" alt="" />
       </a>
       <!-- </a> -->
 

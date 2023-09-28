@@ -49,7 +49,7 @@
         </div>
 
         <div class="social__container">
-          <div class="icon__container">
+          <div class="icon__container animate-bounce">
             <a href="https://www.facebook.com/Fujababy" target="_blank">
               <img src="../assets/svg/facebook-icon-1.svg" alt="" />
             </a>
@@ -79,7 +79,9 @@
 
     <section>
       <div class="copyright__section">
-        <p>&copy;{{ currentYear }} Illuminate Nigeria proudly powered by Vue. Design by Fuja.</p>
+        <p class="animate-pulse">
+          &copy;{{ currentYear }} Illuminate Nigeria proudly powered by Vue. Design by Fuja.
+        </p>
       </div>
     </section>
   </div>
@@ -169,7 +171,6 @@ export default {
 
   .social__container {
     padding-top: 5rem;
-
     width: 100%;
     img {
       width: 30px;
@@ -182,6 +183,15 @@ export default {
       align-items: center;
       margin-right: 0;
       padding-top: 3rem;
+    }
+
+    .icon__container {
+      display: flex;
+    }
+
+    .animate-bounce {
+      animation-duration: 2s;
+      animation-timing-function: ease-out;
     }
   }
 }
