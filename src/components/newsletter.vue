@@ -89,7 +89,7 @@ export default {
   background: #ffdd00;
   width: 100%;
   overflow-x: hidden;
-  padding: 7rem 2rem;
+  padding: 7rem 4rem;
 
   @media screen and (max-width: 768px) {
   }

@@ -105,7 +105,7 @@ onMounted(() => {
       .media__body {
         .quote__author {
           font-size: 3rem;
-          font-weight: 300;
+          font-weight: 400;
           font-style: normal;
           margin-bottom: 0;
 
@@ -123,22 +123,37 @@ onMounted(() => {
 
   footer {
     .btn--center {
+      width: 100%;
+      display: flex;
+      // justify-content: space-between;
       :nth-of-type(1) {
         margin-right: 1rem;
       }
       @media screen and (max-width: 768px) {
-        display: flex;
+        // display: flex;
         flex-direction: column;
         justify-content: center;
         align-items: center;
+        // width: 100%;
 
         :nth-of-type(1) {
           margin-right: 0;
+          width: 100%;
+        }
+
+        :nth-of-type(2) {
+          margin-right: 0;
+          width: 100%;
+          letter-spacing: 12px;
         }
       }
 
       .btn--width {
         color: #000;
+        letter-spacing: 1px;
+      }
+      .btn--width:hover {
+        background: #f1db4d;
       }
     }
   }
