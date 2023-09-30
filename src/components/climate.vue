@@ -202,7 +202,7 @@
     .nowrap {
       .animate__bounce {
         animation-duration: 2s;
-        animation-timing-function: ease-out;
+        animation-timing-function: ease-in-out;
         animation-iteration-count: infinite;
       }
       figure {
