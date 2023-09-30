@@ -73,7 +73,7 @@ export default {
 
 <style lang="scss" scoped>
 .carousel {
-  // padding-top: 3.5rem;
+  padding-top: 3.5rem;
   .carousel__item {
     //   min-height: 200px;
     width: 100%;
