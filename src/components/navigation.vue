@@ -1,11 +1,7 @@
 <template>
-  <nav class="navbar navbar-expand-lg bg-dark navbar-dark pt-3 pb-3">
+  <nav class="navbar navbar-expand-md bg-dark navbar-dark pt-3 pb-3">
     <div class="container">
-      <!-- <a href="/" class="navbar-brand"> -->
-      <a href="/">
-        <img class="nav__logo animate-pulse" src="../assets/default-monochrome-white.svg" alt="" />
-      </a>
-      <!-- </a> -->
+      <img class="nav__logo animate-pulse" src="../assets/default-monochrome-white.svg" alt="" />
 
       <button
         class="navbar-toggler"
@@ -13,7 +9,6 @@
         data-bs-toggle="collapse"
         data-bs-target="#navmenu"
       >
-        <!-- <span class="navbar-toggler-icon"></span> -->
         <span class="navbar-icon">
           <img src="../assets/svg/opentoggle-icon.svg" alt="" />
         </span>
@@ -75,10 +70,7 @@
   }
 }
 .navbar-brand {
-  // font-size: 2rem;
-
   @media screen and (max-width: 768px) {
-    // font-size: 16px;
   }
 }
 
