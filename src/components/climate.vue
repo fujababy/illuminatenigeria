@@ -5,7 +5,11 @@
       ACTI
       <span class="nowrap">
         <figure>
-          <img class="img-sun animate-bounce" src="../assets/images/sun.svg" alt="" />
+          <img
+            class="img-sun animate__animated animate__bounce"
+            src="../assets/images/sun.svg"
+            alt=""
+          />
         </figure>
       </span>
       N
@@ -196,9 +200,10 @@
     }
 
     .nowrap {
-      .animate-bounce {
+      .animate__bounce {
         animation-duration: 2s;
         animation-timing-function: ease-out;
+        animation-iteration-count: infinite;
       }
       figure {
         .img-sun {
