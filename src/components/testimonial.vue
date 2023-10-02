@@ -12,7 +12,7 @@
       <footer>
         <div class="media">
           <div class="media__body">
-            <h3 class="media__title quote__author">Olaniran Fuja</h3>
+            <h3 class="media__title quote__author">Olaniran Taiwo</h3>
             <p class="quote__organization">Founder</p>
           </div>
         </div>
