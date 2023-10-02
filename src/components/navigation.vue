@@ -1,7 +1,9 @@
 <template>
   <nav class="navbar navbar-expand-md bg-dark navbar-dark pt-3 pb-3">
     <div class="container">
-      <img class="nav__logo animate-pulse" src="../assets/default-monochrome-white.svg" alt="" />
+      <a href="/">
+        <img class="nav__logo animate-pulse" src="../assets/default-monochrome-white.svg" alt="" />
+      </a>
 
       <button
         class="navbar-toggler"
