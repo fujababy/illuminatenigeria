@@ -20,10 +20,10 @@
 </template>
 
 <script>
-import featured2 from '../assets/images/featured2.jpg'
+import featured2 from '../assets/images/featured2.webp'
 // import featured3 from '../assets/images/featured3.png'
-import featured4 from '../assets/images/featured4.jpg'
-import featured1 from '../assets/images/featured1.jpg'
+import featured4 from '../assets/images/featured4.webp'
+import featured1 from '../assets/images/featured1.webp'
 
 import 'vue3-carousel/dist/carousel.css'
 import { Carousel, Slide, Pagination, Navigation } from 'vue3-carousel'

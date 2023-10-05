@@ -1,36 +1,54 @@
 <template>
-  <section class="block" data-aos="zoom-out-up" data-aos-duration="3900">
-    <figure>
-      <img class="founder-img" src="../assets/images/unnamed.jpg" alt="" />
-    </figure>
-    <blockquote class="quote">
-      <p class="quote__text animate__animated animate__bounce">
-        Bringing solar energy to everyone is simple: <br />
-        It starts with you. <br />
-        Let's take the power of the future into our own hands.
-      </p>
-      <footer>
-        <div class="media">
-          <div class="media__body">
-            <h3 class="media__title quote__author">Olaniran Taiwo</h3>
-            <p class="quote__organization">Founder</p>
+  <div>
+    <section class="block" data-aos="zoom-out-up" data-aos-duration="3900">
+      <figure>
+        <img class="founder-img" src="../assets/images/unnamed.jpg" alt="" />
+      </figure>
+      <blockquote class="quote">
+        <p class="quote__text animate__animated animate__bounce">
+          Bringing solar energy to everyone is simple: <br />
+          It starts with you. <br />
+          Let's take the power of the future into our own hands.
+        </p>
+        <footer>
+          <div class="media">
+            <div class="media__body">
+              <h3 class="media__title quote__author">Olaniran Taiwo</h3>
+              <p class="quote__organization">Founder</p>
+            </div>
           </div>
-        </div>
-        <div class="btn--center">
-          <a href="https://api.whatsapp.com/send?phone=08132852593">
-            <button class="btnn btn-primaryy btn--width">Meet Olaniran</button>
-          </a>
+          <div class="btn--center">
+            <a href="https://api.whatsapp.com/send?phone=08132852593">
+              <button class="btnn btn-primaryy btn--width">Meet Olaniran</button>
+            </a>
 
-          <a href="mailto:shilevelli@gmail.com">
-            <button class="btnn btn-primaryy btn--width">Email Me</button>
-          </a>
-        </div>
-      </footer>
-    </blockquote>
-  </section>
+            <a href="mailto:shilevelli@gmail.com">
+              <button class="btnn btn-primaryy btn--width">Email Me</button>
+            </a>
+          </div>
+        </footer>
+      </blockquote>
+    </section>
+  </div>
 </template>
 
-<script></script>
+<script>
+export default {
+  name: 'testimonail', // replace with component-name
+  data() {
+    return {
+      schema: {
+        username: 'required'
+      }
+    }
+  },
+  methods: {
+    register(values) {
+      console.log(values)
+    }
+  }
+}
+</script>
 
 <style lang="scss" scoped>
 .block {
